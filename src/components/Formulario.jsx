@@ -321,14 +321,7 @@ const Formulario = () => {
     });
     console.log(fechavencimiento === fechavencimientoOld);
 
-    guardarPagos({
-      id,
-      nombre,
-      anticipo,
-      formadepago,
-      adeudoneto,
-      fechavencimiento,
-    });
+  
      if (anticipo === "0" || anticipo === 0) {
       console.log("No se guarda el pago");
     } else {
